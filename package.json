@@ -1,0 +1,27 @@
+{
+	"name": "codeiconesjsorg",
+	"displayName": "Vs Code Icones",
+	"version": "1.0.0",
+	"description": "Une extension cool pour icones.js.org avec VSCode",
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"activationEvents": [
+		"onCommand:extension.codeiconesjsorg"
+	],
+	"main": "extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.codeiconesjsorg",
+				"title": "Icones"
+			}
+		]
+	},
+	"publisher": "ThomasTSWD",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ThomasTSWD/code-icones.git"
+	},
+	"icon": "icon.png"
+}
